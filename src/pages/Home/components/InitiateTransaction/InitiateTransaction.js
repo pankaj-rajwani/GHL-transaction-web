@@ -65,7 +65,7 @@ const InitiateTransaction = () => {
       if (amount <= 0) {
         return errorNotification(INCORRECT_AMOUNT_ERR_MSG);
       }
-      if (walletInfo.balance == 0 && !isCredit) {
+      if (walletInfo.balance < amount && !isCredit) {
         return errorNotification(CANNOT_DEBIT_ERR_MSG);
       }
       if (description.trim() === '') {

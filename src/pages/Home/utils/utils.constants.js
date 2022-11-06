@@ -14,7 +14,7 @@ export const FETCH_WALLET_DETAILS_ERR_MSG =
   'Failed to fetch wallet details! Please try reloading the page.';
 export const INCORRECT_AMOUNT_ERR_MSG = 'Please enter amount greater than 0';
 export const CANNOT_DEBIT_ERR_MSG =
-  'Insufficient balance! Please credit some amount.';
+  'Insufficient balance to process the transaction';
 export const NO_DESCRIPTION_ERR_MSG =
   'Please enter a description for the transaction.';
 export const AMOUNT_CHECK_ERR_MSG = 'Please enter amount upto 4 decimal values';
