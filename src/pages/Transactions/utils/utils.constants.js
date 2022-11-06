@@ -1,0 +1,9 @@
+export const COLUMN_1 = 'Amount';
+export const COLUMN_2 = 'Type';
+export const COLUMN_3 = 'Description';
+export const COLUMN_4 = 'Date';
+export const COLUMN_5 = 'Balance Before';
+export const COLUMN_6 = 'Balance After';
+export const PAGE_HEADING = 'Transactions';
+export const EXPORT_TO_CSV_BTN_TEXT = 'Export to CSV';
+export const SETUP_WALLET_ERR_MSG = 'Please setup your wallet first.';
