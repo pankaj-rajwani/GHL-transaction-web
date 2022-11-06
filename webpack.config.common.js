@@ -61,7 +61,7 @@ module.exports = {
       process: 'process/browser',
     }),
     new Dotenv({
-      path: `./.env`,
+      systemvars: true,
     }),
   ],
 };
