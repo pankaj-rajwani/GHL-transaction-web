@@ -1,6 +1,5 @@
 const { merge } = require('webpack-merge');
 const commonConfig = require('./webpack.config.common');
-const Dotenv = require('dotenv-webpack');
 
 module.exports = merge(commonConfig, {
   mode: 'development',
@@ -19,9 +18,4 @@ module.exports = merge(commonConfig, {
       },
     ],
   },
-  plugins: [
-    new Dotenv({
-      path: `./.env`,
-    }),
-  ],
 });
